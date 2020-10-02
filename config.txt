@@ -1,0 +1,23 @@
+{
+    "inbounds": [
+        {
+            "port": 4070,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "df8b64b1-f7ad-486e-ba6a-70dd683bbd31"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network":"ws"
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
